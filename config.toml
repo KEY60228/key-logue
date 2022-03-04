@@ -16,6 +16,9 @@ hasCJKLanguage = true
 # Disqus Comment System
 #disqusShortname = ""
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
 # Base color of the website.
 # https://tailwindcss.com/docs/background-color

@@ -88,21 +88,17 @@ DockerはLinuxのコンテナ技術を応用したものなので、そもそも
 
 Docker HubでDockerfileのコマンド見れば分かるかな、って思ったけど、これナニ？？？
 
-{{<figure src="/img/AtCoderBrown.jpg" title="AtCoder Brown">}}
-
-![AtCoder Brown](img/AtCoderBrown.jpg)
-
-![https://key-logue.com/wp-content/uploads/2020/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2020-07-31-22.12.09%EF%BC%882%EF%BC%89-2-1024x515.png](https://key-logue.com/wp-content/uploads/2020/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2020-07-31-22.12.09%EF%BC%882%EF%BC%89-2-1024x515.png)
+{{<figure src="/img/docker-memo1/docker1.png" alt="謎の文字列">}}
 
 → まずコマンド、見るべき場所が違った。
 
 Dockerfileはここ！
 
-![https://key-logue.com/wp-content/uploads/2020/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2020-07-31-22.19.50%EF%BC%882%EF%BC%89-1024x523.png](https://key-logue.com/wp-content/uploads/2020/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2020-07-31-22.19.50%EF%BC%882%EF%BC%89-1024x523.png)
+{{<figure src="/img/docker-memo1/docker2.png" alt="Description">}}
 
 そんでGitHubに飛んで覗いてみたら…
 
-![https://key-logue.com/wp-content/uploads/2020/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2020-07-31-22.23.59%EF%BC%882%EF%BC%89-1024x515.png](https://key-logue.com/wp-content/uploads/2020/07/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2020-07-31-22.23.59%EF%BC%882%EF%BC%89-1024x515.png)
+{{<figure src="/img/docker-memo1/docker3.png" alt="GitHub">}}
 
 バッチリDebianって書いてあった！
 

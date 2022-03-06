@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "textlint-rule-no-dropping-the-ra": true,
+    "@textlint-ja/textlint-rule-no-dropping-i": true,
+    "ja-no-redundant-expression": true,
+    "ja-no-orthographic-variants": true
+  }
+}

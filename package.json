@@ -9,8 +9,9 @@
   "scripts": {
     "start": "concurrently npm:watch:*",
     "watch:tw": "tailwindcss -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css --watch",
-    "watch:hugo": "hugo server",
-    "build": "tailwindcss -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css && hugo --minify"
+    "watch:hugo": "hugo server -D",
+    "build": "tailwindcss -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css && hugo --minify",
+    "lint": "./node_modules/.bin/textlint content/"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.2",
@@ -19,5 +20,13 @@
     "postcss": "^8.4.6",
     "postcss-cli": "^9.1.0",
     "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "@textlint-ja/textlint-rule-no-dropping-i": "^2.0.0",
+    "textlint": "^12.1.1",
+    "textlint-rule-ja-no-orthographic-variants": "^2.0.0",
+    "textlint-rule-ja-no-redundant-expression": "^4.0.1",
+    "textlint-rule-no-dropping-the-ra": "^3.0.0",
+    "textlint-rule-no-todo": "^2.0.1"
   }
 }

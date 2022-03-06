@@ -7,6 +7,8 @@ enableInlineShortcodes = true
 theme = "Blonde"
 enableRobotsTXT = true
 
+ignoreErrors = ["error-remote-getjson"]
+
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
 hasCJKLanguage = true
 

@@ -3,7 +3,7 @@ author = "KEY"
 title = "【Docker】Dockerでよく分からんかったとこ"
 image = "/img/docker-memo1/kujira.png"
 date = 2020-07-31
-description = "Dockerでしっくりこなかったけど調べてみたら腹落ちしたこと"
+description = "Dockerについてしっくりこなかったけど調べてみたら腹落ちしたこと"
 tags = ["Docker"]
 categories = ["Tech"]
 archives = ["2020/07"]
@@ -120,7 +120,7 @@ Dockerfileはここ！
 
 #### コンテナ間でのファイル共有ってどうやんの？？
 
-Dockerのことをよく知らずにLaradockから入ってしまったもんだから、workspaceに入ればWEBサーバーのログも見れるしDBもいじれるしファイルも触れるのが当たり前だと思ってた。
+Dockerのことをよく知らずにLaradockから入ってしまったもんだから、workspaceに入ればWEBサーバーのログも見られるしDBもいじれるしファイルも触れるのが当たり前だと思っていた。
 
 でもいざ自分でDockerfileとかdocker-compose.yml書いてみよう思ったらどうすればいいか全く分からん…
 

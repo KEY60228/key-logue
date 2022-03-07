@@ -16,7 +16,7 @@ hasCJKLanguage = true
 googleAnalytics = "G-LYXKSHS2DK"
 
 # Disqus Comment System
-#disqusShortname = ""
+disqusShortname = "key-logue"
 
 [markup.goldmark.renderer]
   unsafe = true

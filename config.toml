@@ -7,14 +7,19 @@ enableInlineShortcodes = true
 theme = "Blonde"
 enableRobotsTXT = true
 
+ignoreErrors = ["error-remote-getjson"]
+
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
 hasCJKLanguage = true
 
 # If you're using Google Analytics, you can enable this feature.
-#googleAnalytics = "G-1234567890"
+googleAnalytics = "G-LYXKSHS2DK"
 
 # Disqus Comment System
-#disqusShortname = ""
+disqusShortname = "key-logue"
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [params]
 # Base color of the website.
@@ -47,10 +52,12 @@ darkmode = "light"
     # See the Tailwind CSS documentation to set it up.
     # Recommended settings are h-32 to h-48.
     # https://tailwindcss.com/docs/height
-    thumbnail_height = "lg:h-44"
+    # thumbnail_height = "lg:h-44"
+    thumbnail_height = "lg:h-auto"
 
     # https://tailwindcss.com/docs/width
-    thumbnail_width = "lg:w-auto"
+    # # umbnail_width = "lg:w-auto"
+    thumbnail_width = "lg:w-64"
 
     # Number of characters in description
     description = "130"
@@ -80,12 +87,6 @@ darkmode = "light"
     name = "About"
     url = "/about/"
     weight = 2
-
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 3
 
 [taxonomies]
 category = "categories"

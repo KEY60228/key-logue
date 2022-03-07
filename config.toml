@@ -13,7 +13,7 @@ ignoreErrors = ["error-remote-getjson"]
 hasCJKLanguage = true
 
 # If you're using Google Analytics, you can enable this feature.
-#googleAnalytics = "G-1234567890"
+googleAnalytics = "G-LYXKSHS2DK"
 
 # Disqus Comment System
 #disqusShortname = ""

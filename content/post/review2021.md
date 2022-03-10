@@ -6,7 +6,7 @@ date = 2021-12-29
 description = "2021年を振り返って自己肯定感を上げてみた。あと2022年の目標決めてみた。"
 tags = [""]
 categories = ["Daily"]
-archives = ["2022/03"]
+archives = ["2021/12"]
 draft = false
 +++
 

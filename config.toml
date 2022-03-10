@@ -22,6 +22,9 @@ disqusShortname = "key-logue"
   unsafe = true
 
 [params]
+# OGP
+  images = ["OGP.png"]
+
 # Base color of the website.
 # https://tailwindcss.com/docs/background-color
 base_color = "bg-gray-800"

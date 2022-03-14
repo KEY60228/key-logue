@@ -78,7 +78,7 @@ VPSからNetlifyに移したらサーバー代かからなくなるのでは？�
 
 デザインとかレイアウトに対する自由度が高(そう)すぎてちょっと心理的障壁を感じたというのが正直なところ。
 
-一方でHugoはテンプレートも豊富そうだしマークダウンですぐに書き始められそう…って思ったのが結構大きかった。
+一方でHugoは[テンプレートも豊富そう](https://themes.gohugo.io/)だしマークダウンですぐに書き始められそう…って思ったのが結構大きかった。(後ほど知ったけどGatsbyとかもテンプレート豊富そうね)
 
 「Go言語で書かれてるし何かあったら深くまで読み込んでいけそう」とも一瞬思ったけど、「WordPressでPHPほとんど読み書きしてねえや」ってなって我に返った。
 
@@ -104,7 +104,7 @@ HugoのQuick Startでは「posts/」だったからてっきりHugoのお作法�
 
 せっかくだからCIで文章校正出来たら面白いのでは？と考えてtextlintとreviewdogをGitHub Acitonsで回すことにしたけど…
 
-textlintのルール色々ありすぎ問題。(詰まったってわけじゃないけど…メモ的に残しておく)
+textlintのルール色々ありすぎ問題。(詰まったわけじゃないけど…メモ的に残しておく)
 
 色々試して、最終的に今使っているルールは以下の通り。
 
@@ -119,13 +119,15 @@ textlintのルール色々ありすぎ問題。(詰まったってわけじゃ�
 
 汎用漢字以外の文字を使うと校正してくれる。
 
-『脆弱性』(ぜい弱性)とか『叩く』(たたく)とか『繋がる』(つながる)とかダメだったのはちょっと…
+『脆弱性』とか『叩く』とか『繋がる』とかダメだったのがちょっと合わなかったな。
 
 - [textlint-rule-no-doubled-joshi](https://github.com/textlint-ja/textlint-rule-no-doubled-joshi)
 
 1つの文章に2つ以上同じ助詞があると教えてくれる。
 
-自分の文体には合わなかったな…
+これもちょっと自分の文体には合わなかったな〜〜
+
+カスタマイズの余地はあるんだろうけど。
 
 - [textlint-rule-preset-ja-spacing](https://github.com/textlint-ja/textlint-rule-preset-ja-spacing)
 
@@ -135,17 +137,37 @@ textlintのルール色々ありすぎ問題。(詰まったってわけじゃ�
 
 - [textlint-rule-preset-ja-technical-writing](https://github.com/textlint-ja/textlint-rule-preset-ja-technical-writing)
 
-語尾に「。」があるか等チェックしてくれる。
+技術文書向けのルールプリセット。
 
-「…」終わりとか「？」が使えないのが辛かった。
+カジュアル目な文体で書きたかったからあえて入れる必要もないと判断。
 
 - [textlint-rule-spellcheck-tech-word](https://github.com/azu/textlint-rule-spellcheck-tech-word)
 
-技術的なワードのスペルチェックとか行ってくれるのと、基本的な文章構造のチェック。
+技術的なワードのスペルチェックとか基本的な文章構造のチェック。
 
 ありっちゃありだったけど…？？とか！！とか使いまくってる既存記事の書き直しが辛いな、ということで不採用。
 
 (あとよくみたら今はDeprecatedになってた…)
+
+#### GitHub Actions上手くいかない問題
+
+GitHub Actionsが、というよりは自分のworkflowの設定の問題だったけど…
+
+以下のステップで"exit code:1"が出て失敗に終わる(textlintで引っかかる文法はある前提)
+
+```
+run: npx textlint -f checkstyle "content/post/*.md" >> .textlint.log
+```
+
+よくよく調べてみたらリダイレクト(>>)の終了ステータスはリダイレクト元かリダイレクト先のどちらかが終了ステータスを返すとその終了ステータスを返すとのこと。([参照](https://qiita.com/zackey2/items/1221d44ab4ced84dad1c))
+
+つまりtextlintが文法エラーを検出してexit code:1を吐いてるから、リダイレクト処理の終了ステータスも1を返し、結果としてGitHub Actionsがステップ異常と判定して終了してしまっていたということ。
+
+そこで以下のようにステップを変えることで上手くGitHub Actionsが終了する & textlintが検出した文法エラーをreviewdogがコメントしてくれるようになった。
+
+```
+run: npx textlint -f checkstyle "content/post/*.md" | tee .textlint.log
+```
 
 #### NetlifyのDNS遅すぎ問題
 

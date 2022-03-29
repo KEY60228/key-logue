@@ -20,4 +20,13 @@ Twitter: [@KEY60228](https://twitter.com/KEY60228)
 
 技術の話だったり界隈の話だったりポエム的なものだったりをつらつらと…
 
+技術スタックは以下の通り。
+
+- Hugo (Theme: Blonde)
+- Netlify
+- GitHub Actions (textlint, reviewdog)
+- Google Analytics
+- DISQUS
+- Figma (logo, OGP image)
+
 とりあえずまずは継続するところから()

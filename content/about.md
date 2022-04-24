@@ -10,9 +10,9 @@ draft = false
 
 KEYです。
 
-文系(政治)→商社 営業→ITエンジニア2年目。
+文系(政治)→商社 営業→ITエンジニア3年目。
 
-サーバーサイドがメインですがたまにReact書いたりAWS触ったり。
+HR系スタートアップでGoとかGraphQLとかReactとか。
 
 Twitter: [@KEY60228](https://twitter.com/KEY60228)
 
@@ -29,4 +29,4 @@ Twitter: [@KEY60228](https://twitter.com/KEY60228)
 - DISQUS
 - Figma (logo, OGP image)
 
-とりあえずまずは継続するところから()
+とりあえずまずは継続するところからね()

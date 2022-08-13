@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <div class="grid grid-cols-3 gap-4">
+        {{ if .Site.Params.widgets.display }}
+        <div class="col-span-3 lg:col-span-2 mb-3">
+        {{ else }}
+        <div class="col-span-3 mb-3">
+        {{ end }}
+            <h2 class="text-xl dark:text-white">Not Found</h2>
+            <h2 class="text-xl dark:text-white">お探しのページは見つかりませんでした</h2>
+            <div class="back-home-box">
+                <a href="{{ "/" | relURL }}" class="back-home-text dark:text-white">Go Back Home</a>
+            </div>
+        </div>
+        {{ if .Site.Params.widgets.display }}
+            {{ partial "widgets.html" . }}
+        {{ end }}
+    </div>
+{{ end }}

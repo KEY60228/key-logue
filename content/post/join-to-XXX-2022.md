@@ -4,8 +4,8 @@ title = "入社エントリー(？)と2022年上期(？)振り返り"
 image = "/img/join-to-XXX-2022/onboard.jpg"
 date = 2022-09-10
 description = "入社して約半年&2022年も半分(以上)過ぎたので振り返り"
-tags = ["Daily"]
-categories = [""]
+tags = ["LookBack"]
+categories = ["Daily"]
 archives = ["2022/09"]
 draft = false
 +++

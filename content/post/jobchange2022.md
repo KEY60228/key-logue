@@ -4,8 +4,8 @@ title = "2年目エンジニアの退職エントリー&転職活動振り返り
 image = "/img/jobchange2022/next.jpg"
 date = 2022-03-29
 description = "営業からプログラマーに転向して2年生、これまでと転職活動を振り返る"
-tags = ["Daily"]
-categories = [""]
+tags = ["LookBack"]
+categories = ["Daily"]
 archives = ["2022/03"]
 draft = false
 +++

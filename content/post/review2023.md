@@ -30,7 +30,7 @@ draft = false
 
 #### 学業
 
-- UoPeople頑張ってるよ (また別でまとめて書くよ)
+- UoPeople頑張ってるよ (また別でまとめて書くよ) ([書いたよ](https://key-logue.com/post/uopeople2023))
 - 今のところ93/120単位だよ
 - 今のところCGPA4.0キープしてるよ
 

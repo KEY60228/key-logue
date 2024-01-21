@@ -1,6 +1,6 @@
 +++
 author = "KEY"
-title = "University of the Peopleに入学して1年と1termが経った"
+title = "University of the Peopleに入学して1年と1 termが経った"
 image = "/img/uopeople2023/uopeople.jpeg"
 date = 2024-01-21
 description = "UoPeopleでの1年間を振り返り"

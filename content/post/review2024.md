@@ -84,8 +84,72 @@ PoCの最低要件も満たして無事退職。
 
 CS2401とCS3305はそれぞれA+着地。奇跡。
 
+#### April
+
+現職ジョイン。
+
+Goでの開発かと思いきやTypeScript/Bun/Honoでの開発に。
+
+ちょっと心配ではあったけど、書き心地やお作法もそこまで特殊じゃなく、キャッチアップはしやすかったかな。
+
+同僚の人柄も雰囲気も良く、楽しく開発できた1ヶ月。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">転職2週間Done<br>みんなレベル高いし感じ良いし楽しく働けてるな〜〜いくつかPRも出せたし今のところ良い感じ！！！ (だと思いたい)<br>プロダクト前に進めてくぞ〜〜</p>&mdash; KEY (@key60228) <a href="https://twitter.com/key60228/status/1778772012053516563?ref_src=twsrc%5Etfw">April 12, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+UoPeopleは初のLOA (Leave of Absence) した。
+
+精神的余裕がめっちゃ出来て仕事に集中できたな〜〜
+
+#### May
+
+ジョイン前から開発していたプロダクトの派生プロダクトの開発がスタート。
+
+この辺りから元々インフラ/バックエンドを一人で見ていた [@sugar235711](https://twitter.com/sugar235711) がインフラ/SREをメインに、自分がBEをメインで担当するような体制に。
+
+ついでに会議体の整理とかスクラムマスター的な動き方も (勝手に) やらせてもらった。
+
+業務外では[新生活を振り返りLT会](https://engineers.connpass.com/event/306437/)でLTさせてもらったり、[Go Conference 2024](https://gocon.jp/2024/)のスタッフをやってみたり。
+
+#### June
+
+業務では引き続き新規プロダクトの開発。
+
+FE担当の [@__yoshi_dev](https://x.com/__yoshi_dev) が実装スピード早すぎて焦ったけど結構良いスピード感で開発出来たんじゃないかな〜〜
+
+非同期処理のステータス管理で苦労した思い出。
+
+業務外では[エンジニアコネクト](https://cnctor-japan.connpass.com/event/317526/)でLT、Go Conference 2024当日、[エンジニアの輪](https://circle-of-engineer.connpass.com/event/318763/)でLT、[Developers Boost](https://event.shoeisha.jp/devboost/20240622)でLTと結構忙しめな1ヶ月。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">(今更ながら) <a href="https://twitter.com/hashtag/gocon?src=hash&amp;ref_src=twsrc%5Etfw">#gocon</a> お疲れ様でした！<br>初のスタッフ業だし面識ある人ほぼいないしドキドキだったけど、蓋開けてみたらめちゃめちゃ楽しかったな〜〜<br>みんなオープンだしすごく良いコミュニティだった、またやりたい！！！ありがとうございました！！！</p>&mdash; KEY (@key60228) <a href="https://twitter.com/key60228/status/1799669622008098876?ref_src=twsrc%5Etfw">June 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+UoPeopleもCS3306 Databases 2がスタート。
+
+#### July
+
+新規プロダクトの開発が一段落…したは良いものの事業方針が若干不安定でチームの状態があまり良くなかった1ヶ月だったかな。
+
+何を開発すべきかみんな掴みきれていない感じで、機能改修やりつつデバッグとか負債の整理、リアーキテクト的なタスクがメインだった記憶。
+
+CS3306もあまり面白くなく、モチベーション低い状態でダラダラ課題に時間取られてたような…
+
+今思えば個人的にもそこまで良い1ヶ月ではなかったのかな〜〜
+
+#### August
+
+この辺りからテックリード的な動き方が期待されるようになってきてたかな？
+
+#### September
+
+#### October
+
+#### November
+
+#### December
+
 ---
 
 ### 2025年の目標
+
+
 
 ---

@@ -128,23 +128,75 @@ UoPeopleもCS3306 Databases 2がスタート。
 
 新規プロダクトの開発が一段落…したは良いものの事業方針が若干不安定でチームの状態があまり良くなかった1ヶ月だったかな。
 
-何を開発すべきかみんな掴みきれていない感じで、機能改修やりつつデバッグとか負債の整理、リアーキテクト的なタスクがメインだった記憶。
+何を開発すれば良いのかみんな (ビジネスも開発も) 掴みきれていない感じで、機能改修やりつつデバッグとか負債の整理、リアーキテクト的なタスクがメインだった記憶。
 
 CS3306もあまり面白くなく、モチベーション低い状態でダラダラ課題に時間取られてたような…
 
-今思えば個人的にもそこまで良い1ヶ月ではなかったのかな〜〜
+今思えば個人的にもあまり状態の良い1ヶ月ではなかったのかな〜〜
 
 #### August
 
 この辺りからテックリード的な動き方が期待されるようになってきてたかな？
 
+ビジネスメンバーとのコミュニケーションが増えて、個人的にはやや面白い1ヶ月だったかな。
+
+一方でプロダクトの状況は相変わらずで、チームとしては難しい状態が続いてた記憶。
+
+UoPeople CS3306はなんとかA着地。 (当時のツイート見ても色々ギリギリだったのが見えておもろい)
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">CS3306 Final Exam Done!!!<br>マジでこの8週間辛かった〜〜〜〜<br>来termはまたLOAして技術書書く！！Google Cloud PCA取る！！Sophiaやる！！仕事頑張る！！！</p>&mdash; KEY (@key60228) <a href="https://twitter.com/key60228/status/1824815175343779988?ref_src=twsrc%5Etfw">August 17, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 #### September
+
+事業的にグッドニュースが続いてチームのモチベーションが持ち直した月。
+
+個人的にも正社員・業務委託採用に関わらせてもらえるようになって面白さが増した月。
+
+一方で開発に割けるリソースがガッと減っちゃった & 頼りっきりだった [@sugar235711](https://twitter.com/sugar235711) が退職しちゃって手が回らなくなりがちだったな〜〜
+
+でもそんな時に新卒FEの [@ytaisei_](https://twitter.com/ytaisei_) がBE/インフラまで手を伸ばしてきてくれてマジで助かった、そんな1ヶ月。
+
+UoPeopleは再びLOA。そして30歳に。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">30歳になっちゃいました<br>怒涛の一年になりそうです<br>対戦おなしゃす！！！</p>&mdash; KEY (@key60228) <a href="https://twitter.com/key60228/status/1840760410552819894?ref_src=twsrc%5Etfw">September 30, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 #### October
 
+正式にテックリードに。 (とはいえやることは変わってない)
+
+業務委託メンバーも一人増え、勢い戻ってきた感じだった記憶。
+
+プロダクトは機能開発というよりは磨き込み期間だったかな (これもう半年くらい前のことだと思ってたけどまだ2ヶ月前なのか)
+
+ランタイムをBunからNodeに移行したり負荷試験したりパフォーマンスチューニングしたり…
+
+業務外ではずっと引き延ばしてたGoogle CloudのProfessional Cloud Architectを取った。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Google Cloud PCA受かった！！<br>久々の資格だ〜〜他のも欲しくなってきた <a href="https://t.co/Xo3TjueExb">pic.twitter.com/Xo3TjueExb</a></p>&mdash; KEY (@key60228) <a href="https://twitter.com/key60228/status/1852146750762746248?ref_src=twsrc%5Etfw">November 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 #### November
 
+11月は5-6月に自分が実装したコードにひたすら苦しめられた1ヶ月だったような…
+
+バカデカデータが入ってきた時の考慮が浅い上にデバッグしづらい機能だったからひたすら時間溶けてた。
+
+text/event-streamとも戦ってたし結構技術的には骨太 (？) な1ヶ月だった記憶。
+
+UoPeopleは取りたいコースが取れずまたまたLOA。謎のLearning Pathいい加減やめてくれないかなアレ。
+
 #### December
+
+認証基盤のリプレースやら既存プロダクトのバージョン2化やらな1ヶ月。
+
+アドベントカレンダーも初めて書いた。
+
+<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 52.5%; padding-top: 120px;"><a href="https://zenn.dev/aishift/articles/afa0b2295fd5be" data-iframely-url="//iframely.net/7AeoCj5"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
+師走って言うだけあって土日も飲み会多くて忙しい1ヶ月だったな〜〜
+
+これまで平日やりきれなかった分は土日で多少取り返してたけど12月は全然取り返せず…
+
+最終週もそんな感じ、このブログも書き終わらずで締まるに締まらぬ最終月でした。 (~~来年~~ 今年は心身ともにゆとりを持って年越しするぞ)
 
 ---
 

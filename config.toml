@@ -1,7 +1,7 @@
 baseURL = "https://key-logue.com"
 title = "KEY-LOGUE"
 author = "KEY"
-languageCode = "ja"
+locale = "ja"
 DefaultContentLanguage = "ja"
 enableInlineShortcodes = true
 theme = "Blonde"
@@ -20,6 +20,12 @@ disqusShortname = "key-logue"
 
 [markup.goldmark.renderer]
   unsafe = true
+
+# Hugo v0.161+ は PostCSS 等の Node ツールを Node の権限モデル付きで実行する。
+# browserslist がプロジェクト外(親ディレクトリの lockfile 等)を読もうとして
+# 落ちるため、読み取りのみ全許可する。書き込み制限はデフォルトのまま。
+[security.node.permissions]
+  allowRead = ['*']
 
 [params]
 # OGP
@@ -102,7 +108,7 @@ archive = "archives"
     disabled = false
     simple = true
 
-  [privacy.twitter]
+  [privacy.x]
     disabled = false
     enableDNT = true
     simple = true
@@ -120,5 +126,5 @@ archive = "archives"
   [services.instagram]
     disableInlineCSS = true
 
-  [services.twitter]
+  [services.x]
     disableInlineCSS = true

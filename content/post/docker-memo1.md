@@ -70,7 +70,7 @@ DockerはLinuxのコンテナ技術を応用したものなので、そもそも
 
 …つまり上で言っている「ホストOS」ってのはMacOSやらWindowsやらのことを言っているのではなく、Docker for Mac や Docker for Windows (厳密には hyperkit や hyper-v ) で立ち上げた仮想Linuxのことを言っていたのでした！！(スッキリ！！)
 
-{{< tweet user="key60228" id="1273245457385316354" >}}
+{{< x user="key60228" id="1273245457385316354" >}}
 
 ---
 

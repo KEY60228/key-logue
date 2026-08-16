@@ -6,6 +6,9 @@
   "repository": "https://github.com/opera7133/Blonde",
   "author": "wamo <ainznino@pm.me>",
   "license": "MIT",
+  "browserslist": [
+    "defaults"
+  ],
   "scripts": {
     "start": "concurrently npm:watch:*",
     "watch:tw": "tailwindcss -i ./themes/Blonde/assets/css/main.css -o ./themes/Blonde/assets/css/style.css --watch",
